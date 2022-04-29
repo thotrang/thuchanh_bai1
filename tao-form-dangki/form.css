@@ -1,0 +1,11 @@
+p{
+    margin: 0;
+    font-weight: bold;
+}
+input{
+    margin-bottom: 10px;
+}
+#register{
+    width:100px;
+    height:20px;
+}
