@@ -1,0 +1,17 @@
+table,td,th,tr{
+    width: 1000px;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align:center;
+}
+th{
+    background: red;
+    color:white;
+    border-color:white;
+}
+body{
+    padding:50px;
+}
+td{
+    font-family: 'Open Sans', sans-serif;
+}
