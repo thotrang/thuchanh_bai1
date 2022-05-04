@@ -1,0 +1,32 @@
+h1{
+    color: white;
+    background-color: orange;
+    text-align: center;
+
+}
+table{
+    width: 1000px;
+    background-color: white;
+}
+.container{
+    width: 1050px;
+    height: 300px;
+    background-color: aquamarine;
+    
+}
+input{
+    border-left: 2px inset  gray;
+    border-top: 2px inset gray;
+    border-right: 1px outset ;
+    border-bottom: 1px outset ;
+}
+th{
+    text-align: right;
+    color:blue;
+}
+span{
+    color:orange;
+}
+*{
+    margin: 10px;
+}
