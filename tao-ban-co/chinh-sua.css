@@ -1,0 +1,23 @@
+td{
+    width: 100px;
+    height: 100px;   
+}
+
+td{
+    text-align: right;
+}
+div {
+    background-color: orange;
+    width: 1000px;
+    height: 1000px;
+}
+table{
+    border-collapse:collapse;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}   
+*{
+    font-size: 20px;
+}
