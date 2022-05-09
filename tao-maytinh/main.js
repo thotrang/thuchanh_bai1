@@ -1,9 +1,4 @@
-function tinhtoan(){
-    
-}
-
 let x = 0;
-
 function tong() {
     let number1 = +document.getElementById('number1').value;
     let number2 = +document.getElementById('number2').value;
