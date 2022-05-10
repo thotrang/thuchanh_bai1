@@ -29,8 +29,9 @@ function myDirection(huong){
             bottomDirection();
             break;
     }
-
+    
 }
+myDirection();
 // function moveSelection(evt) {
 //     switch (evt.keyCode) {
 //         case 37:

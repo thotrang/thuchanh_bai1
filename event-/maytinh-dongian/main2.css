@@ -1,0 +1,19 @@
+div{
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+    width:350px;
+    height: auto;
+}
+input{
+    width:60px;
+}
+input.nhapSo{
+    width: 320px;
+}
+*{
+    padding: 10px;
+    color:blue;
+    text-align:center;
+    font-weight: 800;
+}
