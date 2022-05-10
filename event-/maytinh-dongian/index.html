@@ -13,32 +13,33 @@
 <body>
     <div>
         <table>
-            <tr><input class="nhapSo" type="number" id="number"></tr>
-            <tr>
-                <td><input type="button" value="1" id="1"></td>
-                <td><input type="button" value="2" id="2"></td>
-                <td><input type="button" value="3" id="3"></td>
-                <td><input type="button" value="4" id="4"></td>
-            </tr>
-            <tr>
-                <td><input type="button" value="5" id="5"></td>
-                <td><input type="button" value="6" id="6"></td>
-                <td><input type="button" value="7" id="7"></td>
-                <td><input type="button" value="8" id="8"></td>
-            </tr>
-            <tr>
-                <td><input type="button" value="9" id="9"></td>
-                <td><input type="button" value="0" id="0"></td>
-                <td><input type="button" value="+" id="+"></td>
-                <td><input type="button" value="-" id="-"></td>
-            </tr>
-            <tr>
-                <td><input type="button" value="*" id="*"></td>
-                <td><input type="button" value="/" id="/"></td>
-                <td><input type="button" value="=" id="="></td>
-                <td><input type="reset" value="C" id="C"></td>
-            </tr>
-
+            <form action="">
+                <tr><input class="nhapSo" type="text" id="number"></tr>
+                <tr>
+                    <td><input type="button" value="1" id="1" onclick="nhap(value)"></td>
+                    <td><input type="button" value="2" id="2" onclick="nhap(value)"></td>
+                    <td><input type="button" value="3" id="3" onclick="nhap(value)"></td>
+                    <td><input type="button" value="4" id="4" onclick="nhap(value)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="5" id="5" onclick="nhap(value)"></td>
+                    <td><input type="button" value="6" id="6" onclick="nhap(value)"></td>
+                    <td><input type="button" value="7" id="7" onclick="nhap(value)"></td>
+                    <td><input type="button" value="8" id="8" onclick="nhap(value)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="9" id="9" onclick="nhap(value)"></td>
+                    <td><input type="button" value="0" id="0" onclick="nhap(value)"></td>
+                    <td><input type="button" value="+" id="+" onclick="nhap(value)"></td>
+                    <td><input type="button" value="-" id="-" onclick="nhap(value)"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="*" id="*" onclick="nhap(value)"></td>
+                    <td><input type="button" value="/" id="/" onclick="nhap(value)"></td>
+                    <td><input type="button" value="=" id="=" onclick="tinhToan()"></td>
+                    <td><input type="reset" value="C" id="C"></td>
+                </tr>
+            </form>
         </table>
     </div>
 </body>
